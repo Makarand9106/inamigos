@@ -225,7 +225,7 @@ const Admin = () => {
           </form>
 
           {/* Seed hint */}
-          <div style={{
+          {/* <div style={{
             marginTop: '25px',
             padding: '12px',
             borderRadius: '8px',
@@ -237,7 +237,7 @@ const Admin = () => {
             <p style={{ fontWeight: 600, color: 'var(--color-primary)', marginBottom: '4px' }}>Demo Credentials:</p>
             <p>Email: <code>admin@inamigosfoundation.org.in</code></p>
             <p>Password: <code>adminpassword123</code></p>
-          </div>
+          </div> */}
 
         </div>
       </div>
