@@ -236,7 +236,9 @@ const Admin = () => {
           }}>
             <p style={{ fontWeight: 600, color: 'var(--color-primary)', marginBottom: '4px' }}>Demo Credentials:</p>
             <p>Email: <code>admin@inamigosfoundation.org.in</code></p>
-            <p>Password: <code>adminpassword123</code></p>
+            <p>Password: <code>
+            
+            </code></p>
           </div> */}
 
         </div>

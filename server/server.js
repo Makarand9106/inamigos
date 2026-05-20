@@ -13,11 +13,12 @@ connectDB();
 const app = express();
 
 app.use(cors({
-    origin: "https://inamigos-l8pw.vercel.app/",
+    origin: "https://inamigos-l8pw.vercel.app",
     credentials: true
 }));
 
 app.use(express.json());
+app.use(express.urlencoded({ extended: true }));
 
 // Routes
 app.use('/api/auth', require('./routes/authRoutes'));
